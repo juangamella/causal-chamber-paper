@@ -8,4 +8,10 @@ matplotlib==3.7.5
 scipy==1.10.1
 seaborn==0.13.2
 
-# Requirements for case_studies/causal_discovery_iid.ipynb
+# Additional requirements for case_studies/causal_discovery_iid.ipynb
+sempler==0.2.13
+networkx==3.1
+ges==1.1.0
+causaldag==0.1a160
+
+# Additional requirements for case_studies/causal_discovery_iid.ipynb
