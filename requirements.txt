@@ -1,0 +1,11 @@
+# TODO: creating a kernel for jupyter
+
+# Requirements for causal_validation.ipynb
+causalchamber==0.1.1
+pandas==2.0.3
+numpy==1.24.4
+matplotlib==3.7.5
+scipy==1.10.1
+seaborn==0.13.2
+
+# Requirements for case_studies/causal_discovery_iid.ipynb
