@@ -1,4 +1,7 @@
-# TODO: creating a kernel for jupyter
+# Creating a kernel for jupyter
+# install ipykernel on this venv
+# make it available to the notebooks
+# python -m ipykernel install --user --name=notebooks
 
 # Requirements for causal_validation.ipynb
 causalchamber==0.1.1
@@ -14,4 +17,7 @@ networkx==3.1
 ges==1.1.0
 causaldag==0.1a160
 
-# Additional requirements for case_studies/causal_discovery_iid.ipynb
+# Additional requirements for case_studies/causal_discovery_time.ipynb
+tigramite==5.2.5.8
+
+# Additional requirements for case_studies/changepoints.ipynb
