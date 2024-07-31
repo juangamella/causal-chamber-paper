@@ -47,7 +47,7 @@ To run the notebooks from the virtual environment, create a new local kernel (wh
 ipython kernel install --user --name=notebooks
 ```
 
-and once inside the notebook select the kernel: `Kernel -> Change kernel -> notebooks`.
+and once inside the notebook select the kernel: `Kernel -> Change kernel -> notebooks`. You should now be able to run the notebooks in this repository.
 
 
 ## Licenses
