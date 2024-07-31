@@ -21,3 +21,4 @@ causaldag==0.1a160
 tigramite==5.2.5.8
 
 # Additional requirements for case_studies/changepoints.ipynb
+changeforest==1.1.4
