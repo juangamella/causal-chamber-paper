@@ -24,6 +24,32 @@ The code is contained in well-documented Jupyter notebooks, which make use of th
 
 The directory `case_studies/src` contains supporting code for the notebooks, such as a wrapper for UT-IGSP<sup>[[1]](#references)</sup> and the code for the symbolic regression algorithm<sup>[[2]](#references)</sup> used in the corresponding case study.
 
+## Running the notebooks
+
+The Python dependencies to run the notebooks in this repository are specified in the file [`requirements.txt`](requirements.txt). We give instructions on how to install these dependencies and run the notebooks using a Python [virtual environment](https://docs.python.org/3/library/venv.html), but you may also use other tools such as conda. We ran our experiments using `python=3.8.10`, but they should work with later versions.
+
+First, create and activate the virtual environment:
+
+```bash
+python3 -m venv notebooks
+source notebooks/bin/activate
+```
+
+Upgrade pip and setuptools, and install the dependencies:
+```bash
+pip install --upgrade pip setuptools
+pip install -r requirements.txt
+```
+
+To run the notebooks from the virtual environment, create a new local kernel (while the environment is active):
+
+```
+ipython kernel install --user --name=notebooks
+```
+
+and once inside the notebook select the kernel: `Kernel -> Change kernel -> notebooks`. You should now be able to run the notebooks in this repository.
+
+
 ## Licenses
 
 All code is shared under the [MIT license](https://opensource.org/license/mit/). A copy of the license can also be found in [LICENSE.txt](LICENSE.txt).
