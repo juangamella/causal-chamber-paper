@@ -26,7 +26,7 @@ The directory `case_studies/src` contains supporting code for the notebooks, suc
 
 ## Running the notebooks
 
-The Python dependencies to run the notebooks in this repository are specified in the file [`requirements.txt`](requirements.txt). We give instructions on how to install these dependencies and run the notebooks using a Python [virtual environment](https://docs.python.org/3/library/venv.html), but you may also use other tools such as conda. We ran our experiments using `python=3.8.10`, but they should work later versions.
+The Python dependencies to run the notebooks in this repository are specified in the file [`requirements.txt`](requirements.txt). We give instructions on how to install these dependencies and run the notebooks using a Python [virtual environment](https://docs.python.org/3/library/venv.html), but you may also use other tools such as conda. We ran our experiments using `python=3.8.10`, but they should work with later versions.
 
 First, create and activate the virtual environment:
 
@@ -35,7 +35,7 @@ python3 -m venv notebooks
 source notebooks/bin/activate
 ```
 
-Upgrade pip, setuptools and install the dependencies:
+Upgrade pip and setuptools, and install the dependencies:
 ```bash
 pip install --upgrade pip setuptools
 pip install -r requirements.txt
