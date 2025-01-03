@@ -17,8 +17,8 @@ The code is contained in well-documented Jupyter notebooks, which make use of th
 | [`case_studies/ood_impulses.ipynb`](case_studies/ood_impulses.ipynb) |  Task b3 (impulse-response curves) of the OOD-generalization case study. ([Fig. 5b](https://arxiv.org/pdf/2404.11341.pdf))|
 | [`case_studies/changepoints.ipynb`](case_studies/changepoints.ipynb) | Change point detection case study ([Fig. 5c](https://arxiv.org/pdf/2404.11341.pdf))|
 | [`case_studies/ica.ipynb`](case_studies/ica.ipynb) | Case study for independent component analysis (tasks d1, d2 and d3 in [Fig. 6](https://arxiv.org/pdf/2404.11341.pdf))|
-| [`case_studies/symbolic_regression.ipynb`](case_studies/symbolic_regression.ipynb) | Symbolic regression case study ([Fig. 6e](https://arxiv.org/pdf/2404.11341.pdf)) |
-| [`case_studies/mechanistic_models.ipynb`](case_studies/mechanistic_models.ipynb) | Contains examples of running the mechanistic models described in appendix IV, including the code for the case study in ([Fig. 6f](https://arxiv.org/pdf/2404.11341.pdf)) and the additional plots in appendix IV. |
+| [`case_studies/symbolic_regression.ipynb`](case_studies/symbolic_regression.ipynb) | Symbolic regression case study ([Fig. 6](https://arxiv.org/pdf/2404.11341.pdf)) |
+| [`case_studies/mechanistic_models.ipynb`](case_studies/mechanistic_models.ipynb) | Contains examples of running the mechanistic models described in appendix IV, including the code for the case study in ([Fig. 6](https://arxiv.org/pdf/2404.11341.pdf)) and the additional plots in appendix IV. |
 | [`plots_appendices.ipynb`](plots_appendices.ipynb) | Contains the code to produce figures 7-15 in appendix III and compute the calibrated reference voltages in Table 3. |
 | [`causal_validation.ipynb`](causal_validation.ipynb) | Contains the code to produce Tables 5-8 in appendix V of the manuscript. |
 
